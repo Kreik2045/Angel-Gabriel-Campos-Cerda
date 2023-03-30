@@ -126,6 +126,22 @@ h3{
     padding: 30px;
 }
 
+.footer__social a ion-icon:hover{
+    animation: rotate 2s infinite;
+
+    
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(360deg);
+    }
+}
+
+
 @media only screen and (max-width:500px){
     .logo img{
         width: 100px;

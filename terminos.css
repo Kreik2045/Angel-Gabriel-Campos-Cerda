@@ -93,6 +93,21 @@ footer{
     transition: .3s;
 }
 
+.footer__social a ion-icon:hover{
+    animation: rotate 2s infinite;
+
+    
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(360deg);
+    }
+}
+
 nav a{
     padding: 0 10px;
     color: white;
@@ -127,6 +142,7 @@ h1{
     color: rgb(0, 0, 0);
     padding: 150px;
 }
+
 
 @media only screen and (max-width:500px){
     .logo img{
