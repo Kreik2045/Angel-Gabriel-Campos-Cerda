@@ -44,7 +44,7 @@ a{
 
 section{
     grid-area: section1;
-    height: 200vh;
+    height: 300vh;
     text-align: center;
 }
 
@@ -163,11 +163,6 @@ h1{
             transition: .3s;
 }
 
-    section{
-        grid-area: section1;
-        height: 780vh;
-        text-align: center;
-}
 footer{
     grid-area: footer;
     height: 150px;
@@ -188,7 +183,7 @@ footer{
 }
 section{
     grid-area: section1;
-    height: 400vh;
+    height: 430vh;
     text-align: center;
 }
 
