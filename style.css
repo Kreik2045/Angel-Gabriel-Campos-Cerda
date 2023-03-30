@@ -196,14 +196,14 @@ nav a:hover{
 
     section{
         grid-area: section1;
-        height: 820vh;
+        height: 780vh;
         text-align: center;
     }
 
     
     
     nav a{
-        padding: 0 50px;
+        padding: 0 40px;
         color: white;
         font-weight: bold;
         transition: .3s;    
@@ -298,6 +298,8 @@ nav a:hover{
 }
 
 }
+
+
 
 
 
