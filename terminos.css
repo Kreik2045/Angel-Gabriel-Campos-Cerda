@@ -128,3 +128,79 @@ h1{
     padding: 150px;
 }
 
+@media only screen and (max-width:500px){
+    .logo img{
+        width: 100px;
+        }
+        header{
+            grid-area: header;
+            height: 150px;
+            background: linear-gradient(180deg, rgba(38,102,28,1) 0%, rgba(255,255,255,1) 100%);
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 413);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 50px;
+            
+        
+        }
+
+        nav a{
+            padding: 0 40px;
+            color: white;
+            font-weight: bold;
+            transition: .3s;    
+        }
+        
+        nav{
+            margin-right: 10px;
+            font-size: 17px;
+        }
+        
+        nav a:hover{
+            color: #125d12;
+            transition: .3s;
+}
+
+    section{
+        grid-area: section1;
+        height: 780vh;
+        text-align: center;
+}
+footer{
+    grid-area: footer;
+    height: 150px;
+    background: linear-gradient(180deg, rgba(38,102,28,1) 0%, rgba(80,255,54,0) 100%);
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+
+}
+
+.footer__terminos a{
+    padding: 30 30px;
+    border-right: 1px solid rgb(255, 255, 255);
+    color: black;
+    font-weight: bold;
+}
+section{
+    grid-area: section1;
+    height: 400vh;
+    text-align: center;
+}
+
+.cart__paragraph{
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0px;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    padding: 50px;
+}
+
+
+
+}
